@@ -23,11 +23,17 @@ RegisterNumber:  22008389
 */
 ```
 def newton_method(number,number_items=100):
+    
     a=float(number)
+    
     for i in range(number_items):
+    
         number=0.5*(number+a/number)
+    
     return number
+
 a=int(input())
+
 print("Square root of the number:",newton_method(a))
 
 ## Output:
